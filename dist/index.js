@@ -1,5 +1,5 @@
-"use strict";var n=function(u,r){return function(){return r||u((r={exports:{}}).exports,r),r.exports}};var a=n(function(h,l){
-var c=require('@stdlib/assert-is-number/dist').isPrimitive,m=require('@stdlib/slice-base-args2multislice/dist'),o=require('@stdlib/slice-ctor/dist'),q=require('@stdlib/ndarray-base-slice/dist');function p(u,r,t,v){var e,i,s;for(e=[],s=0;s<r.length;s++)i=r[s],c(i)&&i!==0?e.push(new o(i,null)):e.push(null);return q(u,m(e),t,v)}l.exports=p
-});var f=a();module.exports=f;
+"use strict";var h=function(u,e){return function(){return e||u((e={exports:{}}).exports,e),e.exports}};var t=h(function(S,v){
+var p=require('@stdlib/assert-is-number/dist').isPrimitive,q=require('@stdlib/slice-base-args2multislice/dist'),l=require('@stdlib/slice-ctor/dist'),m=require('@stdlib/ndarray-base-shape/dist'),o=require('@stdlib/ndarray-base-slice/dist');function f(u,e,n,c){var i,a,r,s;for(a=m(u),i=[],s=0;s<e.length;s++)r=e[s],p(r)&&r!==0?r===a[s]?(r-=1,i.push(new l(r,r))):i.push(new l(r,null)):i.push(null);return o(u,q(i),n,c)}v.exports=f
+});var g=t();module.exports=g;
 /** @license Apache-2.0 */
 //# sourceMappingURL=index.js.map
