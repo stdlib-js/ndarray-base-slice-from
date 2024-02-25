@@ -1,0 +1,4 @@
+// Copyright (c) 2024 The Stdlib Authors. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+/// <reference types="./index.d.ts" />
+import{isPrimitive as s}from"https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-number@v0.2.0-esm/index.mjs";import e from"https://cdn.jsdelivr.net/gh/stdlib-js/slice-base-args2multislice@v0.2.1-esm/index.mjs";import t from"https://cdn.jsdelivr.net/gh/stdlib-js/slice-ctor@v0.2.1-esm/index.mjs";import r from"https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-shape@v0.2.1-esm/index.mjs";import i from"https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-slice@v0.2.0-esm/index.mjs";function n(n,d,m,l){var h,j,p,o;for(j=r(n),h=[],o=0;o<d.length;o++)p=d[o],s(p)&&0!==p?p===j[o]?(p-=1,h.push(new t(p,p))):h.push(new t(p,null)):h.push(null);return i(n,e(h),m,l)}export{n as default};
+//# sourceMappingURL=index.mjs.map
